@@ -14,12 +14,12 @@ export default function ProductsPage() {
     },
     {
       id: 3,
-      name: "Packaging Materials",
-      description: "Custom packaging solutions for businesses.",
+      name: "Brake fluids",
+      description: "best in the market for your vehicles",
     },
     {
       id: 4,
-      name: "OEM Products",
+      name: "Spolarvätska",
       description: "Manufactured products sourced directly from trusted suppliers.",
     },
   ];
