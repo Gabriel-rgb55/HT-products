@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 
 export default function AboutPage() {
@@ -16,47 +17,48 @@ export default function AboutPage() {
       {/* Content */}
       <section className="mx-auto max-w-5xl px-6 py-16">
         <h1 className="text-5xl font-bold text-white">
-          About <span className="text-blue-500">Us</span>
+          Om <span className="text-blue-500">oss</span>
         </h1>
 
         <p className="mt-6 text-lg leading-8 text-slate-400">
-          HT Products specializes in professional product sourcing and
-          quotation services for businesses. We work with trusted manufacturers
-          and suppliers to help our clients find reliable, high-quality
-          products that meet their specific requirements.
+          HT Products hjälper företag att hitta rätt produkter genom
+          professionell produktanskaffning och skräddarsydda offerter. Vi
+          samarbetar med noggrant utvalda tillverkare och leverantörer för att
+          erbjuda tillförlitliga produkter med hög kvalitet, anpassade efter
+          varje kunds behov.
         </p>
 
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
             <h2 className="text-2xl font-semibold text-white">
-              Our Mission
+              Vårt uppdrag
             </h2>
 
-            <p className="mt-4 text-slate-400">
-              To simplify product sourcing by connecting businesses with
-              dependable suppliers and delivering competitive quotations.
+            <p className="mt-4 leading-relaxed text-slate-400">
+              Vi vill förenkla inköpsprocessen genom att hjälpa företag att
+              hitta pålitliga leverantörer och konkurrenskraftiga lösningar.
             </p>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
             <h2 className="text-2xl font-semibold text-white">
-              What We Do
+              Vad vi erbjuder
             </h2>
 
-            <p className="mt-4 text-slate-400">
-              We source products, compare suppliers, prepare quotations,
-              and support businesses throughout the procurement process.
+            <p className="mt-4 leading-relaxed text-slate-400">
+              Vi hjälper till med produktval, leverantörskontakter,
+              offertunderlag och vägledning genom hela inköpsprocessen.
             </p>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6">
             <h2 className="text-2xl font-semibold text-white">
-              Why Choose Us
+              Varför välja oss?
             </h2>
 
-            <p className="mt-4 text-slate-400">
-              Our focus is on quality, transparent communication, and
-              reliable service to help businesses save time and reduce costs.
+            <p className="mt-4 leading-relaxed text-slate-400">
+              Vi fokuserar på kvalitet, tydlig kommunikation och pålitlig
+              service för att hjälpa företag att spara både tid och resurser.
             </p>
           </div>
         </div>
@@ -64,3 +66,4 @@ export default function AboutPage() {
     </main>
   );
 }
+
