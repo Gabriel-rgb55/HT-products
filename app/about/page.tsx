@@ -1,20 +1,6 @@
-
-import Link from "next/link";
-
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[#050816]">
-      {/* Header */}
-      <header className="border-b border-white/10">
-        <div className="mx-auto flex max-w-7xl items-center px-6 py-5">
-          <Link href="/" className="text-2xl font-bold text-white">
-            HT
-            <span className="text-blue-500"> Products</span>
-          </Link>
-        </div>
-      </header>
-
-      {/* Content */}
       <section className="mx-auto max-w-5xl px-6 py-16">
         <h1 className="text-5xl font-bold text-white">
           Om <span className="text-blue-500">oss</span>
@@ -66,4 +52,3 @@ export default function AboutPage() {
     </main>
   );
 }
-

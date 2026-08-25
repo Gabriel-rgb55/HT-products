@@ -1,18 +1,8 @@
-
 import Link from "next/link";
 
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-[#050816]">
-      <header className="border-b border-white/10">
-        <div className="mx-auto flex max-w-7xl items-center px-6 py-5">
-          <Link href="/" className="text-2xl font-bold text-white">
-            HT
-            <span className="text-blue-500"> Products</span>
-          </Link>
-        </div>
-      </header>
-
       <section className="mx-auto max-w-7xl px-6 py-16">
         <div className="max-w-2xl">
           <h1 className="text-5xl font-bold text-white">
@@ -68,6 +58,7 @@ export default function ContactPage() {
                 <p className="text-sm font-medium uppercase tracking-wide text-slate-500">
                   Adress
                 </p>
+
                 <address className="mt-1 text-lg not-italic leading-relaxed text-white">
                   Exempelgatan 12
                   <br />
@@ -80,9 +71,7 @@ export default function ContactPage() {
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-8">
-            <h2 className="text-2xl font-semibold text-white">
-              Öppettider
-            </h2>
+            <h2 className="text-2xl font-semibold text-white">Öppettider</h2>
 
             <div className="mt-6 space-y-4 text-slate-300">
               <div className="flex justify-between border-b border-white/10 pb-4">
