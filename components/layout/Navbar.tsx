@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 
 export default function Navbar() {
@@ -13,30 +14,23 @@ export default function Navbar() {
         {/* Navigation */}
         <div className="hidden items-center gap-8 text-sm text-slate-300 md:flex">
           <Link href="/" className="transition hover:text-white">
-            Home
+            Hem
           </Link>
 
           <Link href="/products" className="transition hover:text-white">
-            Products
+            Produkter
           </Link>
 
           <Link href="/about" className="transition hover:text-white">
-            About
+            Om oss
           </Link>
 
           <Link href="/contact" className="transition hover:text-white">
-            Contact
+            Kontakt
           </Link>
         </div>
-
-        {/* CTA */}
-        <Link
-          href="/contact"
-          className="rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700"
-        >
-          Request Quote
-        </Link>
       </div>
     </nav>
   );
 }
+
