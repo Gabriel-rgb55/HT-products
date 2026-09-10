@@ -9,8 +9,8 @@ export default function Hero() {
         className="absolute inset-0 opacity-10"
         style={{
           backgroundImage: `
-            linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px)
+            linear-gradient(rgba(15,23,42,.08) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(15,23,42,.08) 1px, transparent 1px)
           `,
           backgroundSize: "60px 60px",
         }}
@@ -47,7 +47,7 @@ export default function Hero() {
 
           <Link
             href="/products"
-            className="rounded-xl border border-slate-700 px-8 py-4 font-medium text-white transition hover:border-blue-500"
+            className="rounded-xl border border-slate-300 bg-white px-8 py-4 font-medium text-slate-900 shadow-sm transition hover:border-blue-500 hover:text-blue-700"
           >
             Utforska produkter
           </Link>
