@@ -26,6 +26,16 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection {
+  background: rgba(37, 99, 235, 0.2);
+  color: var(--foreground);
+}
+
+:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.45);
+  outline-offset: 3px;
+}
+
 body {
   min-height: 100vh;
   margin: 0;
@@ -123,4 +133,25 @@ body {
 [class~="shadow-sm"],
 [class~="shadow-lg"] {
   --tw-shadow-color: rgba(15, 23, 42, 0.08);
+}
+
+.eyebrow {
+  color: var(--brand);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }

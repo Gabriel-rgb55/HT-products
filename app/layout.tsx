@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import "./globals.css";
 import { QuoteCartProvider } from "@/context/QuoteCartContext";
 
@@ -33,9 +34,8 @@ export default function RootLayout({
         <QuoteCartProvider>
           <Navbar />
 
-          <main className="pt-20">
-            {children}
-          </main>
+          <div className="pt-20">{children}</div>
+          <Footer />
         </QuoteCartProvider>
       </body>
     </html>
